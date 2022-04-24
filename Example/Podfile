@@ -3,7 +3,7 @@ use_frameworks!
 platform :ios, '9.0'
 
 target 'RmAudit_Example' do
-  pod 'RmAudit', :path => '../'
+  pod 'RMAudit', :path => '../'
 
   target 'RmAudit_Tests' do
     inherit! :search_paths

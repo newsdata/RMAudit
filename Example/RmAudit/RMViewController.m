@@ -29,7 +29,7 @@
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
     
-    [RMAudit auditPage:NO isPush:NO];
+    [RMAudit auditPage:YES isPush:NO];
 }
 
 @end

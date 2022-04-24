@@ -1,9 +1,9 @@
-# RmAudit
+# RMAudit
 
-[![CI Status](https://img.shields.io/travis/shicahgnshun-xhzy/RmAudit.svg?style=flat)](https://travis-ci.org/shicahgnshun-xhzy/RmAudit)
-[![Version](https://img.shields.io/cocoapods/v/RmAudit.svg?style=flat)](https://cocoapods.org/pods/RmAudit)
-[![License](https://img.shields.io/cocoapods/l/RmAudit.svg?style=flat)](https://cocoapods.org/pods/RmAudit)
-[![Platform](https://img.shields.io/cocoapods/p/RmAudit.svg?style=flat)](https://cocoapods.org/pods/RmAudit)
+[![CI Status](https://img.shields.io/travis/shicahgnshun-xhzy/RMAudit.svg?style=flat)](https://travis-ci.org/shicahgnshun-xhzy/RMAudit)
+[![Version](https://img.shields.io/cocoapods/v/RMAudit.svg?style=flat)](https://cocoapods.org/pods/RMAudit)
+[![License](https://img.shields.io/cocoapods/l/RMAudit.svg?style=flat)](https://cocoapods.org/pods/RMAudit)
+[![Platform](https://img.shields.io/cocoapods/p/RMAudit.svg?style=flat)](https://cocoapods.org/pods/RMAudit)
 
 ## Example
 
@@ -13,11 +13,11 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Installation
 
-RmAudit is available through [CocoaPods](https://cocoapods.org). To install
+RMAudit is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'RmAudit'
+pod 'RMAudit'
 ```
 
 ## Author
@@ -26,4 +26,4 @@ shicahgnshun-xhzy, shichangshun@xhzy
 
 ## License
 
-RmAudit is available under the MIT license. See the LICENSE file for more info.
+RMAudit is available under the MIT license. See the LICENSE file for more info.
