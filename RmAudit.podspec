@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'RMAudit'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = '智能审核SDK RMAudit.'
 
 # This description is used to generate tags and improve search results.
