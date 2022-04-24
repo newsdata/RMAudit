@@ -1,5 +1,5 @@
 #
-# Be sure to run `pod lib lint RMAudit.podspec' to ensure this is a
+# Be sure to run `pod lib lint RMSAudit.podspec' to ensure this is a
 # valid spec before submitting.
 #
 # Any lines starting with a # are optional, but their use is encouraged
@@ -7,9 +7,9 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'RMAudit'
-  s.version          = '0.1.1'
-  s.summary          = '智能审核SDK RMAudit.'
+  s.name             = 'RMSAudit'
+  s.version          = '0.1.0'
+  s.summary          = '智能审核SDK RMSAudit.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -21,19 +21,19 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/newsdata/RMAudit'
+  s.homepage         = 'https://github.com/newsdata/RMSAudit'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'shicahgnshun-xhzy' => 'shichangshun@xhzy' }
-  s.source           = { :git => 'https://github.com/newsdata/RMAudit.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/newsdata/RMSAudit.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'RMAudit/Classes/**/*'
+  s.source_files = 'RMSAudit/Classes/**/*'
   
   # s.resource_bundles = {
-  #   'RMAudit' => ['RMAudit/Assets/*.png']
+  #   'RMSAudit' => ['RMSAudit/Assets/*.png']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
