@@ -7,6 +7,7 @@
 //
 
 #import "RMViewController.h"
+#import <RMAudit/RMAudit.h>
 
 @interface RMViewController ()
 
@@ -17,13 +18,18 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    [RMAudit initWithToken:@""];
 }
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+    
+    [RMAudit auditPage:NO isPush:NO];
 }
 
 @end

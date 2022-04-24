@@ -4,8 +4,6 @@ platform :ios, '9.0'
 
 target 'RmAudit_Example' do
   pod 'RmAudit', :path => '../'
-  
-  pod 'RMBaseSDK', :path => '/Users/shichangshun/Desktop/framework/RMBaseSDK'
 
   target 'RmAudit_Tests' do
     inherit! :search_paths
