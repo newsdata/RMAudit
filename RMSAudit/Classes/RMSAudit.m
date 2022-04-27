@@ -5,10 +5,10 @@
 //  Created by ShiChangShun on 2022/3/24.
 //
 
-#import "RMAudit.h"
+#import "RMSAudit.h"
 #import <RMBaseSDK/RMBaseManager.h>
 
-@implementation RMAudit
+@implementation RMSAudit
 
 + (void)destroyEngine {
     [RMBaseManager destroyEngine];

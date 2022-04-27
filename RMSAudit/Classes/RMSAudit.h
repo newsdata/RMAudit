@@ -1,6 +1,6 @@
 //
-//  RMAudit.h
-//  RmAudit
+//  RMSAudit.h
+//  RMSAudit
 //
 //  Created by ShiChangShun on 2022/3/24.
 //
@@ -9,7 +9,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface RMAudit : NSObject
+@interface RMSAudit : NSObject
 
 /// 初始化智能审核SDK
 /// @param token xxx
